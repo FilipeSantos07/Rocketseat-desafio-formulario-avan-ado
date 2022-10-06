@@ -246,19 +246,16 @@ footer input:hover {
         width: 100%;
     }
     .three-cols {
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
     }
     .three-cols div:nth-child(1) input{
+        margin: 0;
         width: 100%;
     }
-    .three-cols div:nth-child(2) input {
+    .three-cols input {
         width: 100%;
-    }
-    .container {
-        display: flex;
-        flex-direction: column;
-        
-        flex-wrap: wrap;
     }
     select {
         width: 100%;
