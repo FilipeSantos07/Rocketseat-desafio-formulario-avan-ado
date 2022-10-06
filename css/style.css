@@ -239,6 +239,9 @@ footer input:hover {
     }
 }
 @media (max-width:870px) {
+    .container {
+        margin-top: 78px;
+    }
     .two-cols {
         flex-direction: column;
     }
@@ -248,14 +251,17 @@ footer input:hover {
     .three-cols {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 50px;
+        gap: 20px 50px;
     }
     .three-cols div:nth-child(1) input{
         margin: 0;
-        width: 100%;
+        width: 170px;
     }
-    .three-cols input {
-        width: 100%;
+    .three-cols div:nth-child(2) input {
+        width: 170px;
+    }
+    .three-cols div:nth-child(3) input {
+        width: 170px;
     }
     select {
         width: 100%;
